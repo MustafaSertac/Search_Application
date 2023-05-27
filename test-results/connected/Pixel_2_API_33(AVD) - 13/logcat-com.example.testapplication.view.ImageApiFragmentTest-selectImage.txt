@@ -1,0 +1,301 @@
+05-27 15:43:37.993  5146  5178 I TestRunner: started: selectImage(com.example.testapplication.view.ImageApiFragmentTest)
+05-27 15:43:38.026  5146  5178 W Glide   : Failed to find GeneratedAppGlideModule. You should include an annotationProcessor compile dependency on com.github.bumptech.glide:compiler in your application and a @GlideModule annotated AppGlideModule implementation or LibraryGlideModules will be silently ignored
+05-27 15:43:38.089 31678  2135 D EGL_emulation: app_time_stats: avg=499.87ms min=497.60ms max=502.39ms count=3
+05-27 15:43:38.145  2211  3989 D PhFileGroupPop: Added file groups webref-model-local-index
+05-27 15:43:38.147  2211  3989 D PhFileGroupPop: Added file groups smart_actions_grammars
+05-27 15:43:38.149  2211  3989 D PhFileGroupPop: Added file groups smart_actions_ml_models
+05-27 15:43:38.149  2211  3989 D PhFileGroupPop: Added file groups text_classifier
+05-27 15:43:38.152  2211  3989 D PhFileGroupPop: Added file groups smart_actions_emotive_models
+05-27 15:43:38.166  2211  3989 D PhFileGroupPop: Added file groups smarts_expressive_content_scoped_v1
+05-27 15:43:38.167  2211  3989 D PhFileGroupPop: Added file groups smart_actions_sensitive_classifier_models
+05-27 15:43:38.167  2211  3989 D PhFileGroupPop: Added file groups scripted_reply
+05-27 15:43:38.168  2211  3989 D PhFileGroupPop: Added file groups multitask_experiment
+05-27 15:43:38.168  2211  3989 D PhFileGroupPop: Added file groups spam_verdict_enforcement_policy_config
+05-27 15:43:38.168  2211  3989 D PhFileGroupPop: Added file groups smart_suggestion_reranker_models
+05-27 15:43:38.169  2211  3989 D PhFileGroupPop: Added file groups supersort_us_grammars
+05-27 15:43:38.170  2211  3989 D PhFileGroupPop: Added file groups nudge
+05-27 15:43:38.171  2211  3989 D PhFileGroupPop: Added file groups calendar_appointment_grammar
+05-27 15:43:38.171  2211  3989 D PhFileGroupPop: Added file groups birthday_suggestion
+05-27 15:43:38.172  2211  3989 D PhFileGroupPop: Added file groups birthday_grammars
+05-27 15:43:38.189  2211  3989 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=1e45f6eb-0535-4aac-9fe5-5ea10846eb32, tags={ com.google.android.libraries.mdi.download.workmanager.workers.PeriodicWorker, MDD.CELLULAR.CHARGING.PERIODIC.TASK } ]
+05-27 15:43:38.664  5146  5178 W testapplication: Accessing hidden method Ldalvik/system/BaseDexClassLoader;->addDexPath(Ljava/lang/String;Z)V (unsupported, reflection, allowed)
+05-27 15:43:39.002  5146  5178 W ziparchive: Unable to open '/data/user/0/com.example.testapplication/cache/kfp7dxMS.dm': No such file or directory
+05-27 15:43:39.034  5146  5178 E System  : Unable to open zip file: /data/user/0/com.example.testapplication/cache/kfp7dxMS.jar
+05-27 15:43:39.042  5146  5178 E System  : java.io.FileNotFoundException: /data/user/0/com.example.testapplication/cache/kfp7dxMS.jar (No such file or directory)
+05-27 15:43:39.042  5146  5178 E System  : 	at java.util.zip.ZipFile.open(Native Method)
+05-27 15:43:39.042  5146  5178 E System  : 	at java.util.zip.ZipFile.<init>(ZipFile.java:265)
+05-27 15:43:39.042  5146  5178 E System  : 	at java.util.zip.ZipFile.<init>(ZipFile.java:187)
+05-27 15:43:39.042  5146  5178 E System  : 	at java.util.jar.JarFile.<init>(JarFile.java:169)
+05-27 15:43:39.042  5146  5178 E System  : 	at java.util.jar.JarFile.<init>(JarFile.java:106)
+05-27 15:43:39.042  5146  5178 E System  : 	at libcore.io.ClassPathURLStreamHandler.<init>(ClassPathURLStreamHandler.java:46)
+05-27 15:43:39.042  5146  5178 E System  : 	at dalvik.system.DexPathList$Element.maybeInit(DexPathList.java:750)
+05-27 15:43:39.042  5146  5178 E System  : 	at dalvik.system.DexPathList$Element.findResource(DexPathList.java:777)
+05-27 15:43:39.042  5146  5178 E System  : 	at dalvik.system.DexPathList.findResources(DexPathList.java:572)
+05-27 15:43:39.042  5146  5178 E System  : 	at dalvik.system.BaseDexClassLoader.findResources(BaseDexClassLoader.java:330)
+05-27 15:43:39.042  5146  5178 E System  : 	at java.lang.ClassLoader.getResources(ClassLoader.java:839)
+05-27 15:43:39.042  5146  5178 E System  : 	at java.util.ServiceLoader$LazyIterator.hasNextService(ServiceLoader.java:349)
+05-27 15:43:39.042  5146  5178 E System  : 	at java.util.ServiceLoader$LazyIterator.hasNext(ServiceLoader.java:402)
+05-27 15:43:39.042  5146  5178 E System  : 	at java.util.ServiceLoader$1.hasNext(ServiceLoader.java:488)
+05-27 15:43:39.042  5146  5178 E System  : 	at androidx.test.internal.platform.ServiceLoaderWrapper.loadService(ServiceLoaderWrapper.java:49)
+05-27 15:43:39.042  5146  5178 E System  : 	at androidx.test.internal.platform.ServiceLoaderWrapper.loadSingleServiceOrNull(ServiceLoaderWrapper.java:89)
+05-27 15:43:39.042  5146  5178 E System  : 	at androidx.test.internal.platform.ServiceLoaderWrapper.loadSingleService(ServiceLoaderWrapper.java:72)
+05-27 15:43:39.042  5146  5178 E System  : 	at androidx.test.core.app.ActivityScenario.<init>(ActivityScenario.java:150)
+05-27 15:43:39.042  5146  5178 E System  : 	at androidx.test.core.app.ActivityScenario.launch(ActivityScenario.java:234)
+05-27 15:43:39.042  5146  5178 E System  : 	at com.example.testapplication.view.ImageApiFragmentTest.selectImage(ImageApiFragmentTest.kt:80)
+05-27 15:43:39.042  5146  5178 E System  : 	at java.lang.reflect.Method.invoke(Native Method)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+05-27 15:43:39.042  5146  5178 E System  : 	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
+05-27 15:43:39.042  5146  5178 E System  : 	at dagger.hilt.android.internal.testing.MarkThatRulesRanRule$1.evaluate(MarkThatRulesRanRule.java:108)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.Suite.runChild(Suite.java:128)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.Suite.runChild(Suite.java:27)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+05-27 15:43:39.042  5146  5178 E System  : 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+05-27 15:43:39.042  5146  5178 E System  : 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:67)
+05-27 15:43:39.042  5146  5178 E System  : 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+05-27 15:43:39.042  5146  5178 E System  : 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:446)
+05-27 15:43:39.042  5146  5178 E System  : 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2361)
+05-27 15:43:39.046  5146  5178 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-27 15:43:39.073   397   397 D goldfish-address-space: claimShared: Ask to claim region [0x3f17bb000 0x3f1f62000]
+05-27 15:43:39.107  5146  5184 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+05-27 15:43:39.109  5146  5184 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+05-27 15:43:39.112  5146  5184 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+05-27 15:43:39.116   397   397 D goldfish-address-space: claimShared: Ask to claim region [0x3f1f62000 0x3f2709000]
+05-27 15:43:39.123 31678  2135 D EGL_emulation: app_time_stats: avg=516.73ms min=499.86ms max=533.59ms count=2
+05-27 15:43:39.131   397   397 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f07e9000]
+05-27 15:43:39.138   397   397 D goldfish-address-space: claimShared: Ask to claim region [0x3f2709000 0x3f2ef2000]
+05-27 15:43:39.149   807  1024 W Parcel  : Expecting binder but got null!
+05-27 15:43:39.149   397   397 D goldfish-address-space: claimShared: Ask to claim region [0x3f4f90000 0x3f5779000]
+05-27 15:43:39.155   397   397 D goldfish-address-space: claimShared: Ask to claim region [0x3f2ef2000 0x3f3402000]
+05-27 15:43:39.213  5146  5146 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+05-27 15:43:39.222  5146  5146 D LifecycleMonitor: Lifecycle status change: com.example.testapplication.HiltTestActivity@2f1be61 in: PRE_ON_CREATE
+05-27 15:43:39.223  5146  5146 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-27 15:43:39.300  5146  5146 D LifecycleMonitor: Lifecycle status change: com.example.testapplication.HiltTestActivity@2f1be61 in: CREATED
+05-27 15:43:39.301  5146  5146 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.testapplication.HiltTestActivity@2f1be61
+05-27 15:43:39.311  5146  5146 D LifecycleMonitor: Lifecycle status change: com.example.testapplication.HiltTestActivity@2f1be61 in: STARTED
+05-27 15:43:39.311  5146  5146 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.testapplication.HiltTestActivity@2f1be61
+05-27 15:43:39.363  5146  5146 W testapplication: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+05-27 15:43:39.364  5146  5146 W testapplication: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+05-27 15:43:39.368  5146  5146 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10173; state: ENABLED
+05-27 15:43:39.378  5146  5146 D LifecycleMonitor: Lifecycle status change: com.example.testapplication.HiltTestActivity@2f1be61 in: RESUMED
+05-27 15:43:39.378  5146  5146 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.testapplication.HiltTestActivity@2f1be61
+05-27 15:43:39.417  5146  5182 D HostConnection: createUnique: call
+05-27 15:43:39.418  5146  5182 D HostConnection: HostConnection::get() New Host Connection established 0x729374815110, tid 5182
+05-27 15:43:39.425  5146  5182 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+05-27 15:43:39.426  5146  5182 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-27 15:43:39.427  5146  5182 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-27 15:43:39.440  5146  5182 D EGL_emulation: eglCreateContext: 0x729374816790: maj 2 min 0 rcv 2
+05-27 15:43:39.484  5146  5182 D EGL_emulation: eglMakeCurrent: 0x729374816790: ver 2 0 (tinfo 0x72958df75080) (first time)
+05-27 15:43:39.496   230   230 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-27 15:43:39.497  5146  5182 I Gralloc4: mapper 4.x is not supported
+05-27 15:43:39.500  5146  5182 D HostConnection: createUnique: call
+05-27 15:43:39.501  5146  5182 D HostConnection: HostConnection::get() New Host Connection established 0x729374815e90, tid 5182
+05-27 15:43:39.501  5146  5182 D goldfish-address-space: allocate: Ask for block of size 0x100
+05-27 15:43:39.502  5146  5182 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3efffe000 size 0x2000
+05-27 15:43:39.506   230   230 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+05-27 15:43:39.507   229   229 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+05-27 15:43:39.507  5146  5182 W Gralloc4: allocator 4.x is not supported
+05-27 15:43:39.509   397   397 D goldfish-address-space: claimShared: Ask to claim region [0x3f0fd2000 0x3f17bb000]
+05-27 15:43:39.517  5146  5182 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+05-27 15:43:39.549   397   397 D goldfish-address-space: claimShared: Ask to claim region [0x3fa949000 0x3fb132000]
+05-27 15:43:39.554   397   397 D goldfish-address-space: claimShared: Ask to claim region [0x3f8000000 0x3f87e9000]
+05-27 15:43:39.589  5146  5182 W Parcel  : Expecting binder but got null!
+05-27 15:43:39.592   599   616 W ziparchive: Unable to open '/data/app/~~6IzZtkpbL9U-SRHtlRgrHA==/com.example.testapplication-Do4UFAFjQABNmN0y5wcVJw==/base.dm': No such file or directory
+05-27 15:43:39.593   599   616 I ActivityTaskManager: Displayed com.example.testapplication/.HiltTestActivity: +536ms
+05-27 15:43:39.609   599  1129 W InputManager-JNI: Input channel object '6f479d2 Splash Screen com.example.testapplication (client)' was disposed without first being removed with the input manager!
+05-27 15:43:39.631  1369  1369 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2266
+05-27 15:43:39.632  1369  1369 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():159 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+05-27 15:43:39.632  1369  1369 I InputBundle: InputBundle.consumeEvent():894 Skip consuming an event as keyboard status is 0
+05-27 15:43:39.633  1369  1369 I KeyboardWrapper: KeyboardWrapper.consumeEvent():273 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+05-27 15:43:39.633  1369  1369 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+05-27 15:43:39.634  1369  1369 I AndroidIME: AbstractIme.onDeactivate():213 LatinIme.onDeactivate()
+05-27 15:43:39.639   807  1024 D EGL_emulation: app_time_stats: avg=39627.25ms min=39627.25ms max=39627.25ms count=1
+05-27 15:43:39.646  1369  2995 E native  : E0000 00:00:1685202219.646093    2995 keyboard.cc:26] Cannot create a keyboard with 0 valid keys
+05-27 15:43:39.654  1369  2765 D EGL_emulation: app_time_stats: avg=1255.21ms min=1.97ms max=15012.13ms count=12
+05-27 15:43:39.662  1369  1369 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+05-27 15:43:39.663  1369  1369 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+05-27 15:43:39.663  1369  1369 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.testapplication fieldId=-1 fieldName=null extras=null}, false)
+05-27 15:43:39.664  1369  1369 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+05-27 15:43:39.666   599  1912 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=19141067 mSleepTimeMs=0 mIdleTimeMs=19020304 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=0}]}
+05-27 15:43:39.688   807  1024 D EGL_emulation: app_time_stats: avg=298863.91ms min=634.72ms max=597093.12ms count=2
+05-27 15:43:39.732   599  2103 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=19141133 mSleepTimeMs=0 mIdleTimeMs=19020368 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=0}]}
+05-27 15:43:39.762  5146  5146 W testapplication: Accessing hidden method Ljava/lang/invoke/MethodHandles$Lookup;-><init>(Ljava/lang/Class;I)V (unsupported, reflection, allowed)
+05-27 15:43:39.819  5146  5146 W testapplication: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (unsupported,core-platform-api, reflection, allowed)
+05-27 15:43:39.819  5146  5146 W testapplication: Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (unsupported,core-platform-api, reflection, allowed)
+05-27 15:43:39.820  5146  5146 W testapplication: Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (unsupported,core-platform-api, reflection, allowed)
+05-27 15:43:39.900  5146  5178 W FileTestStorage: Output properties is not supported.
+05-27 15:43:39.903  5146  5178 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+05-27 15:43:39.918  5146  5178 D EventInjectionStrategy: Creating injection strategy with input manager.
+05-27 15:43:39.918  5146  5178 W testapplication: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+05-27 15:43:39.919  5146  5178 W testapplication: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+05-27 15:43:39.919  5146  5178 W testapplication: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+05-27 15:43:39.964  4027  4040 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+05-27 15:43:39.964  4027  4040 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+05-27 15:43:39.965  4027  4040 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+05-27 15:43:39.973  4027  4326 I FontLog : Pulling font file for id = 51, cache size = 6 [CONTEXT service_id=132 ]
+05-27 15:43:39.976  5146  5178 W testapplication: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+05-27 15:43:39.980  4027  4326 I FontLog : Pulling font file for id = 51, cache size = 6 [CONTEXT service_id=132 ]
+05-27 15:43:39.984  5146  5178 W FileTestStorage: Test input args is not supported.
+05-27 15:43:39.994  5146  5146 W testapplication: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+05-27 15:43:39.994  5146  5146 W testapplication: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+05-27 15:43:39.995  5146  5146 W testapplication: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+05-27 15:43:40.002  5146  5146 W testapplication: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+05-27 15:43:40.002  5146  5146 W testapplication: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+05-27 15:43:40.002  5146  5146 W testapplication: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+05-27 15:43:40.011  5146  5146 I ViewInteraction: Performing 'actionOnItemAtPosition performing ViewAction: single click on item at position: 0' action on view view.getId() is <2131230957/com.example.testapplication:id/imageRecyclerView>
+05-27 15:43:40.029  5146  5146 W Glide   : Load failed for [developer.com] with dimensions [263x263]
+05-27 15:43:40.029  5146  5146 W Glide   : class com.bumptech.glide.load.engine.GlideException: Failed to load resource
+05-27 15:43:40.029  5146  5146 W Glide   : There were 3 root causes:
+05-27 15:43:40.029  5146  5146 W Glide   : java.io.FileNotFoundException(/developer.com: open failed: ENOENT (No such file or directory))
+05-27 15:43:40.029  5146  5146 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+05-27 15:43:40.029  5146  5146 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+05-27 15:43:40.029  5146  5146 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-27 15:43:40.029  5146  5146 W Glide   :   Cause (1 of 3): class com.bumptech.glide.load.engine.GlideException: Fetching data failed, class java.io.InputStream, LOCAL
+05-27 15:43:40.029  5146  5146 W Glide   : There was 1 root cause:
+05-27 15:43:40.029  5146  5146 W Glide   : java.io.FileNotFoundException(/developer.com: open failed: ENOENT (No such file or directory))
+05-27 15:43:40.029  5146  5146 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-27 15:43:40.029  5146  5146 W Glide   :     Cause (1 of 1): class com.bumptech.glide.load.engine.GlideException: Fetch failed
+05-27 15:43:40.029  5146  5146 W Glide   : There was 1 root cause:
+05-27 15:43:40.029  5146  5146 W Glide   : java.io.FileNotFoundException(/developer.com: open failed: ENOENT (No such file or directory))
+05-27 15:43:40.029  5146  5146 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-27 15:43:40.029  5146  5146 W Glide   :       Cause (1 of 1): class java.io.FileNotFoundException: /developer.com: open failed: ENOENT (No such file or directory)
+05-27 15:43:40.029  5146  5146 W Glide   :   Cause (2 of 3): class com.bumptech.glide.load.engine.GlideException: Fetching data failed, class android.os.ParcelFileDescriptor, LOCAL
+05-27 15:43:40.029  5146  5146 W Glide   : There was 1 root cause:
+05-27 15:43:40.029  5146  5146 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+05-27 15:43:40.029  5146  5146 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-27 15:43:40.029  5146  5146 W Glide   :     Cause (1 of 1): class com.bumptech.glide.load.engine.GlideException: Fetch failed
+05-27 15:43:40.029  5146  5146 W Glide   : There was 1 root cause:
+05-27 15:43:40.029  5146  5146 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+05-27 15:43:40.029  5146  5146 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-27 15:43:40.029  5146  5146 W Glide   :       Cause (1 of 1): class java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+05-27 15:43:40.029  5146  5146 W Glide   :   Cause (3 of 3): class com.bumptech.glide.load.engine.GlideException: Fetching data failed, class android.content.res.AssetFileDescriptor, LOCAL
+05-27 15:43:40.029  5146  5146 W Glide   : There was 1 root cause:
+05-27 15:43:40.029  5146  5146 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+05-27 15:43:40.029  5146  5146 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-27 15:43:40.029  5146  5146 W Glide   :     Cause (1 of 1): class com.bumptech.glide.load.engine.GlideException: Fetch failed
+05-27 15:43:40.029  5146  5146 W Glide   : There was 1 root cause:
+05-27 15:43:40.029  5146  5146 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+05-27 15:43:40.029  5146  5146 W Glide   :  call GlideException#logRootCauses(String) for more detail
+05-27 15:43:40.029  5146  5146 W Glide   :       Cause (1 of 1): class java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+05-27 15:43:40.030  5146  5146 I Glide   : Root cause (1 of 3)
+05-27 15:43:40.030  5146  5146 I Glide   : java.io.FileNotFoundException: /developer.com: open failed: ENOENT (No such file or directory)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at libcore.io.IoBridge.open(IoBridge.java:574)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at java.io.FileInputStream.<init>(FileInputStream.java:160)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at java.io.FileInputStream.<init>(FileInputStream.java:115)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at android.content.ContentResolver.openInputStream(ContentResolver.java:1516)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.StreamLocalUriFetcher.loadResourceFromUri(StreamLocalUriFetcher.java:74)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.StreamLocalUriFetcher.loadResource(StreamLocalUriFetcher.java:50)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.StreamLocalUriFetcher.loadResource(StreamLocalUriFetcher.java:13)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.LocalUriFetcher.loadData(LocalUriFetcher.java:44)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:100)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.startNextLoad(SourceGenerator.java:95)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:88)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:311)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:280)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:235)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:424)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at java.lang.Thread.run(Thread.java:1012)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultPriorityThreadFactory$1.run(GlideExecutor.java:383)
+05-27 15:43:40.030  5146  5146 I Glide   : Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at libcore.io.Linux.open(Native Method)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7758)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at libcore.io.IoBridge.open(IoBridge.java:560)
+05-27 15:43:40.030  5146  5146 I Glide   : 	... 18 more
+05-27 15:43:40.030  5146  5146 I Glide   : Root cause (2 of 3)
+05-27 15:43:40.030  5146  5146 I Glide   : java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at android.os.ParcelFileDescriptor.openInternal(ParcelFileDescriptor.java:342)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at android.os.ParcelFileDescriptor.open(ParcelFileDescriptor.java:229)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1837)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1758)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.FileDescriptorLocalUriFetcher.loadResource(FileDescriptorLocalUriFetcher.java:20)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.FileDescriptorLocalUriFetcher.loadResource(FileDescriptorLocalUriFetcher.java:12)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.LocalUriFetcher.loadData(LocalUriFetcher.java:44)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:100)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.startNextLoad(SourceGenerator.java:95)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:88)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:311)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherFailed(DecodeJob.java:416)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.onLoadFailedInternal(SourceGenerator.java:223)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator$1.onLoadFailed(SourceGenerator.java:108)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.startNextOrFail(MultiModelLoader.java:167)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.onLoadFailed(MultiModelLoader.java:154)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.LocalUriFetcher.loadData(LocalUriFetcher.java:50)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:100)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.startNextLoad(SourceGenerator.java:95)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:88)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:311)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:280)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:235)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:424)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at java.lang.Thread.run(Thread.java:1012)
+05-27 15:43:40.030  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultPriorityThreadFactory$1.run(GlideExecutor.java:383)
+05-27 15:43:40.031  5146  5146 I Glide   : Root cause (3 of 3)
+05-27 15:43:40.031  5146  5146 I Glide   : java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at android.os.ParcelFileDescriptor.openInternal(ParcelFileDescriptor.java:342)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at android.os.ParcelFileDescriptor.open(ParcelFileDescriptor.java:229)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1837)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1758)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.AssetFileDescriptorLocalUriFetcher.loadResource(AssetFileDescriptorLocalUriFetcher.java:20)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.AssetFileDescriptorLocalUriFetcher.loadResource(AssetFileDescriptorLocalUriFetcher.java:11)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.LocalUriFetcher.loadData(LocalUriFetcher.java:44)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:100)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.startNextLoad(SourceGenerator.java:95)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:88)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:311)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherFailed(DecodeJob.java:416)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.onLoadFailedInternal(SourceGenerator.java:223)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator$1.onLoadFailed(SourceGenerator.java:108)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.startNextOrFail(MultiModelLoader.java:167)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.onLoadFailed(MultiModelLoader.java:154)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.LocalUriFetcher.loadData(LocalUriFetcher.java:50)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:100)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.startNextLoad(SourceGenerator.java:95)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:88)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:311)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.onDataFetcherFailed(DecodeJob.java:416)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.onLoadFailedInternal(SourceGenerator.java:223)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator$1.onLoadFailed(SourceGenerator.java:108)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.startNextOrFail(MultiModelLoader.java:167)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.onLoadFailed(MultiModelLoader.java:154)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.data.LocalUriFetcher.loadData(LocalUriFetcher.java:50)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:100)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.startNextLoad(SourceGenerator.java:95)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.SourceGenerator.startNext(SourceGenerator.java:88)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.runGenerators(DecodeJob.java:311)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.runWrapped(DecodeJob.java:280)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:235)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:424)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at java.lang.Thread.run(Thread.java:1012)
+05-27 15:43:40.031  5146  5146 I Glide   : 	at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultPriorityThreadFactory$1.run(GlideExecutor.java:383)
+05-27 15:43:40.359  5146  5178 I TestRunner: finished: selectImage(com.example.testapplication.view.ImageApiFragmentTest)

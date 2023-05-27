@@ -1,0 +1,68 @@
+# 2023-05-27T16:04:29.269Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "ImageApiFragmentTest"
+    test_package: "com.example.testapplication.view"
+    test_method: "selectImage"
+    start_time {
+      seconds: 1685203465
+      nanos: 873000000
+    }
+    end_time {
+      seconds: 1685203468
+      nanos: 231000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\muser\\Desktop\\TestExampleApplication\\test-results\\connected\\Pixel_2_API_33(AVD) - 13\\logcat-com.example.testapplication.view.ImageApiFragmentTest-selectImage.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\muser\\Desktop\\TestExampleApplication\\test-results\\connected\\Pixel_2_API_33(AVD) - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\muser\\Desktop\\TestExampleApplication\\test-results\\connected\\Pixel_2_API_33(AVD) - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\muser\\Desktop\\TestExampleApplication\\test-results\\connected\\Pixel_2_API_33(AVD) - 13\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\muser\\Desktop\\TestExampleApplication\\test-results\\connected\\Pixel_2_API_33(AVD) - 13\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
