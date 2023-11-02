@@ -4,13 +4,4 @@ I using Mvvm,DaggerHilt,Room,Retrofit in this project.I tested all UI,UNIT,INTEG
  
 ![Adsız](https://github.com/MustafaSertac/Search_Application/assets/46023127/20547f23-751c-451e-951a-fa457bc85d8b)
 
-Features
-Firestore
-Navigation component
-Two way databinding
-MVVM architecture
-Kotlin coroutines
-Retrofit
-Testing
-Dependency Injection
-Mvvm
+ 
