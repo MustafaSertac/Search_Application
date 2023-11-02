@@ -9,16 +9,16 @@
     android:layout_gravity="center">
 
     <ImageView
-        android:layout_marginTop="80dp"
-        android:layout_gravity="center"
 
+        android:layout_gravity="center"
+android:layout_marginTop="20dp"
         android:id="@+id/artImageView"
-        android:layout_width="300dp"
-        android:layout_height="350dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
 
         android:layout_marginBottom="26dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/baseline_add_photo_alternate_24"
 
 
          />
